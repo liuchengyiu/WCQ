@@ -1,9 +1,4 @@
-language: node_js
-node_js:
-    - "6"
-git:
-  submodules: false
-install:
-    - npm install
-test:
-    - npm run test
+language: java
+jdk:
+  - oraclejdk8
+
